@@ -25,7 +25,7 @@ numpy==1.18.1
 python insert.py
 ```
 
-**2-** *(Optional)* If you want to perform the **metadata-based approach** for recommandation, similarity edges must be created by running ***"insert_similarity.py"*** *(It takes* ***5 hours*** *with the hardware mentioned above)*
+**2-** If you want to perform the **metadata-based approach** for recommandation, similarity edges must be created by running ***"insert_similarity.py"*** *(It takes* ***5 hours*** *with the hardware mentioned above)*
 ```
 python insert_similarity.py
 ```
