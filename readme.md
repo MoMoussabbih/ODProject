@@ -40,7 +40,7 @@ Then we could run the code :
 python recommend.py
 ```
 
-**3-** Recommendation algorithm for **original schema-based approach** is written in ***"recommend2.py"***, variables : ***threshold*** (for similarity condition) and ***userID*** (user we want to predict its ratings for unrated movies) could be changed inside the code *(line 7 and 8)*:
+**3-** Recommendation algorithm for **original schema-based approach** is written in ***"recommend2.py"***, it could be executed even if step ***2*** and ***2bis*** was performed, variables : ***threshold*** (for similarity condition) and ***userID*** (user we want to predict its ratings for unrated movies) could be changed inside the code *(line 7 and 8)*:
 ```
 threshold = ... #by default it is 0.5
 userId = ... #by default it is 35
