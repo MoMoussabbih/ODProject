@@ -30,7 +30,7 @@ python insert.py
 python insert_similarity.py
 ```
 
-**2bis-** If the step 2 was chosen, recommendation algorithm for metadata-based approach is written in ***"recommend.py"***, keep in mind that variables ***topK*** (top number of similars) and ***userID*** (user we want to predict its ratings for unrated movies) could be changed inside the code *(line 8 and 9)*:
+**2bis-** If the step 2 was chosen, recommendation algorithm for metadata-based approach is written in ***"recommend.py"***, keep in mind that variables : ***topK*** (top number of similars) and ***userID*** (user we want to predict its ratings for unrated movies) could be changed inside the code *(line 8 and 9)*:
 ```
 topK = ... #by default it is 3
 userId = ... #by default it is 35
@@ -40,7 +40,7 @@ Then we could run the code :
 python recommend.py
 ```
 
-**3-** Recommendation algorithm for **original schema-based approach** is written in ***"recommend2.py"***, variables ***threshold*** (for similarity condition) and ***userID*** (user we want to predict its ratings for unrated movies) could be changed inside the code *(line 7 and 8)*:
+**3-** Recommendation algorithm for **original schema-based approach** is written in ***"recommend2.py"***, variables : ***threshold*** (for similarity condition) and ***userID*** (user we want to predict its ratings for unrated movies) could be changed inside the code *(line 7 and 8)*:
 ```
 threshold = ... #by default it is 0.5
 userId = ... #by default it is 35
