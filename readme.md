@@ -11,7 +11,7 @@ System type: 64-bit Operating System, x64-based processor
 
 ## Requirements
 
-This project was written in *Python v3.7*, the following Python packages are required :
+This project was written in ***Python v3.7***, the following Python packages are required :
 ```
 py2neo==4.3.0
 pandas==0.25.0
