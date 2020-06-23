@@ -47,5 +47,5 @@ userId = ... #by default it is 35
 ```
 Then we could run the code :
 ```
-python recommend.py
+python recommend2.py
 ```
